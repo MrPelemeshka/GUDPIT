@@ -1,0 +1,524 @@
+* {
+    font-family: Roboto;
+    font-weight: normal;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.top_panel {
+    max-width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+}
+
+.search_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    position: relative;
+    outline: none;
+    border: 0;
+    margin-left: 3em;
+}
+
+.lupa {
+    margin-right: 5px;
+}
+
+.buttonReg {
+    border: 1px solid #898989;
+    padding: .3em 1em;
+    font-size: 0.875em;
+    border-radius: 5px;
+    color: #696969;
+}
+
+.header {
+    margin-left: 2.125em;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top_panel .search_form input {
+    outline: none;
+    border: 0;
+    min-width: 20em;
+}
+
+.inbox {
+    width: 35%;
+    position: relative;
+    margin-left: 1.563em;
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inboxText {
+    margin-top: 2%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #696969;
+}
+
+.outbox {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 6em;
+    background-color: #fff;
+    text-decoration: none;
+    color: #696969;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    box-shadow: -2px -2px 4px rgba(137, 137, 137, 0.25), 2px 2px 4px rgba(137, 137, 137, 0.25);
+    border-radius: 5px;
+    z-index: 2;
+    margin-left: 2em;
+}
+
+.triangle {
+    position: relative;
+    width: 0px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid white;
+    margin-left: 5.5em;
+    z-index: 2;
+}
+
+.popUp {
+    margin-left: 22.5em;
+    margin-top: 2.6em;
+    position: absolute;
+}
+
+.itemList {
+    position: relative;
+    text-decoration: none;
+    color: #696969;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    width: auto;
+    padding-left: 5%;
+}
+
+.panel {
+    width: 85%;
+    height: 1.063em;
+    left: 4.375em;
+    top: 11.688em;
+}
+
+.GP {
+    position: relative;
+    margin-left: 1%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4A4A4A;
+}
+
+.search {
+    position: relative;
+    outline: none;
+    border: 0;
+    margin-left: 3em;
+}
+
+.buttonReg {
+    border: 1px solid #898989;
+    padding: .3em 1em;
+    font-size: 0.875em;
+    border-radius: 5px;
+    color: #696969;
+}
+
+.top_panel .search_form input {
+    outline: none;
+    border: 0;
+    min-width: 20em;
+}
+
+.bell {
+    margin: 0 1em;
+}
+
+.account {
+    color: #4A4A4A;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+.DocumentText {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.panel {
+    margin-top: 8em;
+    width: 90%;
+    padding: 0 4em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.panel .search_container .search_form input {
+    outline: none;
+    border: 0;
+    min-width: 20em;
+    background: transparent;
+}
+
+.panel .sort_by {
+    color: #4A4A4A;
+    font-size: 0.875em;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+    height: auto;
+    left: 2.125em;
+    right: 2.125em;
+    top: 14.375em;
+    padding: 1%;
+}
+
+.rows div {
+    position: relative;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    margin-top: 2.125em;
+    max-width: 100%;
+    background-color: #FFFFFF;
+}
+
+.infoAboutDocument {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.infoAboutDocument div {
+    width: 30%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 13em;
+}
+
+.d-from {
+    width: 4.375em;
+    height: 4.375em;
+}
+
+.d-to {
+    width: 4.375em;
+    height: 4.375em;
+}
+
+.lit {
+    position: relative;
+    margin-bottom: 10em;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #898989;
+}
+
+.StatusAndActions {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5.063em;
+}
+
+.StatusAndActions div {
+    display: flex;
+    flex-direction: column;
+}
+
+.Actions {
+    margin-top: 5px;
+    width: 9em;
+}
+
+.act {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 5px;
+}
+
+.act:visited {
+    color: #0500FF;
+}
+
+.sta {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.Do {
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #898989;
+    height: 5%;
+    width: 70%;
+    padding: 5%;
+}
+
+.vct {
+    margin-left: 3px;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.top_panel {
+    max-width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+}
+
+.search_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    position: relative;
+    outline: none;
+    border: 0;
+    margin-left: 3em;
+}
+
+.lupa {
+    margin-right: 5px;
+}
+
+.buttonReg {
+    border: 1px solid #898989;
+    padding: .3em 1em;
+    font-size: 0.875em;
+    border-radius: 5px;
+    color: #696969;
+}
+
+.top_panel .search_form input {
+    outline: none;
+    border: 0;
+    min-width: 20em;
+}
+
+.bell {
+    margin: 0 1em;
+}
+
+.account {
+    color: #4A4A4A;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+.panelContent {
+    display: flex;
+    position: relative;
+}
+
+.iconsActions {
+    display: flex;
+    position: relative;
+    width: 8.25em;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panelActions {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 2.125em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.backButton {
+    background-color: white;
+    width: 5em;
+    height: 3em;
+    border-radius: 10px;
+}
+
+.tabs {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 14px;
+    color: #898989;
+    text-decoration: none;
+}
+
+.titleErrands {
+    font-weight: 300;
+    font-size: 14px;
+    color: #4A4A4A;
+    text-decoration: none;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0.2em;
+    padding: 0.2em;
+}
+
+.fileName {
+    position: relative;
+    display: flex;
+    width: 14%;
+    justify-content: space-around;
+}
+
+.noDecor {
+    text-decoration: none;
+    color: #898989;
+    border-radius: 10px 0px 0px 10px;
+    margin-left: 0.5em;
+    padding: 0.2em;
+}
+
+.vector {
+    height: 100%;
+}
+
+.arrow {
+    position: relative;
+    width: 45%;
+    height: 25%;
+    padding: 24%;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2.125em;
+    margin-top: 2.563em;
+}
+
+.contentIn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.DocRegNum {
+    font-size: 18px;
+}
+
+.underTitle {
+    margin-top: 13px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+}
+
+.ArrowDown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

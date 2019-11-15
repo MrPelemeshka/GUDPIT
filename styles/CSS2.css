@@ -1,0 +1,205 @@
+* {
+    font-family: Roboto;
+    font-weight: normal;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.top_panel {
+    max-width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+}
+
+.rightPart {
+    display: flex;
+    align-items: center;
+}
+
+.leftPart {
+    display: flex;
+    align-items: center;
+}
+
+.search_form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search {
+    position: relative;
+    outline: none;
+    border: 0;
+    margin-left: 3em;
+}
+
+.lupa {
+    margin-right: 5px;
+}
+
+.buttonReg {
+    border: 1px solid #898989;
+    padding: .3em 1em;
+    font-size: 0.875em;
+    border-radius: 5px;
+    color: #696969;
+}
+
+.top_panel .search_form input {
+    outline: none;
+    border: 0;
+    min-width: 20em;
+}
+
+.bell {
+    margin: 0 1em;
+}
+
+.account {
+    color: #4A4A4A;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+.panelContent {
+    display: flex;
+    position: relative;
+}
+
+.iconsActions {
+    display: flex;
+    position: relative;
+    width: 8.25em;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panelActions {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    justify-content: space-between;
+    margin-left: 2.125em;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.backButton {
+    background-color: white;
+    width: 5em;
+    height: 3em;
+    border-radius: 10px;
+}
+
+.tabs {
+    background-color: white;
+    width: 20em;
+    height: 3em;
+    margin-left: 13px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 14px;
+    color: #898989;
+    text-decoration: none;
+}
+
+.titleErrands {
+    font-weight: 300;
+    font-size: 14px;
+    color: #898989;
+    text-decoration: none;
+    margin-right: 6%;
+}
+
+.fileName {
+    position: relative;
+    display: flex;
+    width: 14%;
+    justify-content: space-around;
+}
+
+.noDecor {
+    text-decoration: none;
+    color: #4A4A4A;
+}
+
+.vector {
+    height: 100%;
+}
+
+.arrow {
+    position: relative;
+    width: 45%;
+    height: 25%;
+    padding: 24%;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2.125em;
+    margin-top: 2.563em;
+}
+
+.contentIn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.leftColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.DocRegNum {
+    font-size: 18px;
+}
+
+.underTitle {
+    margin-top: 13px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+}
+
+.iconsActions a {}
+
+.ArrowDown {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

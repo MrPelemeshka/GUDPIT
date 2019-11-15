@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> ГудПИТ </title>
+	<link rel="stylesheet" type="text/css" href="styles/CSS1.css"/>
+	<script src="scripts/JS1.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+	
+</head>
+<body>
+<div class="top_panel">
+	<div class="leftPart">
+	<span class="GP">ГП</span>
+
+	<div class="search">
+
+	<form action="" method="post" class="search_form"><img src="images/lupa.svg" class="lupa"><input type="text" name="searching" placeholder="Поиск по всей системе"></form>
+	</div>
+</div>
+<div class="rightPart">
+	<a href="#" class="buttonReg">Регистрация</a>
+	<a href="#" class="bell"><img src="images/bell.svg"></a>
+	<a href="#" class="account">Иванов И.И.</a>
+</div>
+	
+
+	</div>
+<header class="header">
+	<span class="DocumentText">Документы на исполнении</span>
+	
+	<div class="inbox">
+		<span class="inboxText">Входящие</span>
+		<a href="#" class="list" onclick="show()" id="button1"><img src="images/Vector.svg"></a>
+	</div>
+	</header>
+<div class="popUp" >
+	<div class="triangle" style="display:none;" id="triangle">
+	</div>
+	<div class="outbox" style="display:none;" id="outbox">
+		<a href="#" class="itemList">Исходящие</a>
+		<a href="#" class="itemList">Приказы</a>
+		<a href="#" class="itemList">Поручения</a>
+		<a href="#"  class="itemList">Личное</a>
+	</div>
+</div>
+<div class="panel">
+		<div class="search_container">
+			<form action="#" method="post" class="search_form">
+				
+				<input type="text" name="main_search" placeholder="Поиск (Ctrl + F)">
+			</form>
+		</div>
+		<a href="#" class="sort_by">По дате </a>
+	</div>
+<div class="rows">
+	<div class="row">
+		<span class="lit">В</span>
+		<div class="date">
+			<div class="d-from">
+				<p><wbr>01  Фев  2019</p>
+			</div>
+			<div class="d-to">
+				<p><wbr>27 Мар  2019</p>
+			</div>
+		</div>
+		<div class="infoAboutDocument">
+			<div class="regNum"><span class="title">Регистрационный №</span><span>823-122-43-2</span></div>
+			<div class="signed"><span class="title">Корр./Подписал</span><span>Улитушкин А.А.</span></div>
+			<div class="destination"><span class="title">Исполнитель/Адресат</span><span>Узумаки Н.М.</span></div>
+			<div class="controller"><span class="title"> Контроллёр </span><span>Климов О.Е.</span></div>
+			<div class="content"><span class="title">Содержание</span><span>О переводе на новый порядок финансирования пред...</span></div>
+		</div>
+		<div class="StatusAndActions">
+			<div class="Status">
+				<span class="title">Статус</span><span class="sta">На рассмотрении</span>
+			</div>
+			<div class="Actions">
+				<span  Class="Do">Действия <img src="images/Vector.svg" class="vct"></span><a href="increased.html" class="act">Открыть на весь экран</a>
+			</div>
+		</div>
+
+	</div>
+	<div class="row">
+		<span class="lit">В</span>
+		<div class="date">
+			<div class="d-from">
+				<p><wbr>01  Фев  2019</p>
+			</div>
+			<div class="d-to">
+				<p><wbr>27 Мар  2019</p>
+			</div>
+		</div>
+		<div class="infoAboutDocument">
+			<div class="regNum"><span class="title">Регистрационный №</span><span>823-122-43-2</span></div>
+			<div class="signed"><span class="title">Корр./Подписал</span><span></span>Улитушкин А.А.</div>
+			<div class="destination"><span class="title">Исполнитель/Адресат</span><span>Узумаки Н.М.</span></div>
+			<div class="controller"><span class="title"> Контроллёр </span><span>Климов О.Е.</span></div>
+			<div class="content"><span class="title">Содержание</span><span>О переводе на новый порядок финансирования пред...</span></div>
+		</div>
+		<div class="StatusAndActions">
+			<div class="Status">
+				<span class="title">Статус</span><span class="sta">На рассмотрении</span>
+			</div>
+			<div class="Actions">
+				<span class="Do">Действия<img src="images/Vector.svg" class="vct"></span><a href="increased.html" class="act">Открыть на весь экран</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<span class="lit">З</span>
+		<div class="date">
+			<div class="d-from">
+				<p><wbr>01  Фев  2019</p>
+			</div>
+			<div class="d-to">
+				<p><wbr>27 Мар  2019</p>
+			</div>
+		</div>
+		<div class="infoAboutDocument">
+			<div class="regNum"><span class="title">Регистрационный №</span><span>823-122-43-2</span></div>
+			<div class="signed"><span class="title">Корр./Подписал</span><span></span>Улитушкин А.А.</div>
+			<div class="destination"><span class="title">Исполнитель/Адресат</span><span>Узумаки Н.М.</span></div>
+			<div class="controller"><span class="title"> Контроллёр </span><span>Климов О.Е.</span></div>
+			<div class="content"><span class="title">Содержание</span><span>О переводе на новый порядок финансирования пред...</span></div>
+			
+
+		</div>
+		<div class="StatusAndActions">
+			<div class="Status">
+				<span class="title">Статус</span><span class="sta">На рассмотрении</span>
+			</div>
+			<div class="Actions">
+				<span  class="Do">Действия<img src="images/Vector.svg" class="vct"></span><a href="increased.html" class="act">Открыть на весь экран</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
