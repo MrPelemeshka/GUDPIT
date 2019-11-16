@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> ГудПИТ </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/CSS1.css" />
+    <script src="scripts/JS1.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="top_panel">
+        <div class="leftPart">
+            <span class="GP">ГП</span>
+
+            <div class="search">
+
+                <form action="" method="post" class="search_form"><img src="images/lupa.svg" class="lupa"><input type="text" name="searching" placeholder="Поиск по всей системе"></form>
+            </div>
+        </div>
+        <div class="rightPart">
+            <a href="#" class="buttonReg">Регистрация</a>
+            <a href="#" class="bell"><img src="images/bell.svg"></a>
+            <a href="#" class="account">Иванов И.И.</a>
+        </div>
+
+
+    </div>
+    <div class=header>
+        <div class="panelContent">
+            <a href="index.html" class="backButton"><img src="images/Arrow.svg" class="arrow"></a>
+            <div style="text-align: center; display:flex">
+                <a href="#" class=" tabs noDecor">Краткие сведения</a>
+                <a href="#" class=" tabs titleErrands">Поручения</a>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <span class="DocRegNum">Документ рег.№ 823-122-43-2</span>
+    </div>
+
+
+</body>
