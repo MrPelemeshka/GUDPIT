@@ -522,3 +522,54 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.bigpanel {
+    margin: 4%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.regtext {
+    font-family: Roboto;
+    font-style: normal;
+    color: #4A4A4A;
+}
+
+.littlepanel {
+    background: #FFFFFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 1%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.select {
+    position: relative;
+    border: 1px solid #898989;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.option {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    text-decoration: none;
+    color: #696969;
+    box-shadow: -2px -2px 4px rgba(137, 137, 137, 0.25), 2px 2px 4px rgba(137, 137, 137, 0.25);
+    border-radius: 5px;
+    z-index: 2;
+}
