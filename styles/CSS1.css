@@ -367,10 +367,10 @@ body {
 
 .buttonReg {
     border: 1px solid #898989;
-    padding: .3em 1em;
-    font-size: 0.875em;
     border-radius: 5px;
     color: #696969;
+    height: auto;
+    width: auto;
 }
 
 .top_panel .search_form input {
@@ -524,12 +524,11 @@ body {
 }
 
 .bigpanel {
+    flex-direction: column;
     margin: 4%;
     background: #FFFFFF;
     border-radius: 5px;
     padding: 1%;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -540,15 +539,18 @@ body {
 }
 
 .littlepanel {
+    flex-direction: column;
     background: #FFFFFF;
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 1%;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    display: -webkit-flex;
     display: flex;
-    position: relative;
+    -webkit-flex-direction: row;
+    flex-direction: row;
 }
 
 .select {
@@ -572,4 +574,19 @@ body {
     box-shadow: -2px -2px 4px rgba(137, 137, 137, 0.25), 2px 2px 4px rgba(137, 137, 137, 0.25);
     border-radius: 5px;
     z-index: 2;
+}
+
+@media screen and (max-width: 500px) {
+    .buttonReg .label {
+        width: 100%;
+        margin-top: 0;
+        float: left;
+    }
+}
+
+.littlepanel div {
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    display: flex;
 }
